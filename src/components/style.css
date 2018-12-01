@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+html,body,#app {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #272727;
+}
+
+.main {
+  margin-bottom: 61px; /* For stick footer */
+}
+
+@media (max-width: 500px) {
+  .main {
+    margin: 40px 0;
+  }
+}
+
+.contianer, .options, .controls {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.time, .title {
+  font-size: 72px;
+  font-weight: 400;
+  color: #fff;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.serverTime {
+  color: #fff;
+}
+
+
+.btn {
+  border: 0;
+  color: #fff;
+  padding: 10px 0;
+  width: 100%;
+  max-width: 110px;
+  margin: 1px;
+  font-weight: 300;
+}
+
+.work {
+  background: #34495e;
+}
+
+.shortBreak {
+  background: #f1c40f;
+}
+
+.longBreak {
+  background: #d35400;
+}
+
+.startTimer {
+  background: #2ecc71;
+}
+
+.stopTimer {
+  background: #c0392b;
+}
